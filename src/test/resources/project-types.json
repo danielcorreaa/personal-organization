@@ -1,0 +1,100 @@
+[
+  {
+    "id": "mudanca",
+    "label": "Mudança",
+    "subtitle": "Planejar transição de lar",
+    "icon": "fa-truck-ramp-box",
+    "colorClass": "blue",
+    "titleLabel": "Descrição da Mudança",
+    "active": true,
+    "extraFields": [
+      {
+        "id": "origem",
+        "label": "Origem",
+        "type": "category",
+        "options": [
+          {
+            "id": "origem_imovel",
+            "label": "Origem Imovel"
+          }
+
+        ]
+      },
+      {
+        "id": "destino",
+        "label": "Destino",
+        "type": "category",
+        "options": [
+          {
+            "id": "destino_imovel",
+            "label": "Destino Imovel"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "viagem",
+    "label": "Viagem",
+    "subtitle": "Planejar novo destino",
+    "icon": "fa-plane-departure",
+    "colorClass": "emerald",
+    "titleLabel": "Destino",
+    "active": true,
+
+    "extraFields": [
+      {
+        "id": "gastos",
+        "label": "Categorias de Gastos",
+        "type": "category",
+        "options": [
+          {
+            "id": "lazer",
+            "label": "Lazer"
+          },
+          {
+            "id": "hospedagem",
+            "label": "Hospedagem"
+          },
+          {
+            "id": "transporte",
+            "label": "Transporte"
+          },
+          {
+            "id": "alimentacao",
+            "label": "Alimentação"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "reforma",
+    "label": "Reforma",
+    "subtitle": "Gerenciar obras e melhorias",
+    "icon": "fa-hammer",
+    "colorClass": "orange",
+    "titleLabel": "Cômodo ou Projeto",
+    "active": false,
+
+    "extraFields": [
+      {
+        "id": "gastos",
+        "label": "Tipos de Gastos",
+        "type": "category",
+        "options": [
+          {
+            "id": "material",
+            "label": "Material de Construção"
+          },
+          {
+            "id": "mao_obra",
+            "label": "Mão de Obra"
+          }
+        ]
+      }
+    ]
+  }
+]

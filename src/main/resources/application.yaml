@@ -1,0 +1,17 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: personal-organization
+  data:
+    mongodb:
+      #authentication-database: admin
+      uri: mongodb://root:example@localhost:27017/organization?authSource=admin&authMechanism=SCRAM-SHA-256
+      #11uri: mongodb+srv://danielaleixocorrea35_db_user:Ai32MKHqjVG0r0ZR@cluster0.q9xza8m.mongodb.net/mudanca?retryWrites=true&w=majority&appName=Cluster0&ssl=true&tls=true
+      #uri: mongodb+srv://${MONGODB_USER}:${MONGODB_PASSWORD}@cluster0.q9xza8m.mongodb.net/mudanca?retryWrites=true&w=majority&appName=Cluster0&ssl=true&tls=true
+      #host: localhost
+      # port: 27017
+      # database: mudanca
+      # username: root
+      # password: example
+
