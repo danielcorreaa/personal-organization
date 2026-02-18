@@ -1,5 +1,6 @@
 package com.personal_organization.infrastructure.security;
 
+import com.personal_organization.infrastructure.mongo.entity.User;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
